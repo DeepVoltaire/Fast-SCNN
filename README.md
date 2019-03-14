@@ -1,5 +1,5 @@
 # Fast-SCNN: Fast Semantic Segmentation Network 
-Unofficial implementation of the model architecture of [Fast-SCNN](https://arxiv.org/abs/1902.04502)
+Unofficial implementation of the model architecture of [Fast-SCNN](https://arxiv.org/abs/1902.04502). Real-time Semantic Segmentation and mobile friendly memory consumption.
 
 ##### Tested with Python 3.6
 
@@ -9,10 +9,23 @@ Unofficial implementation of the model architecture of [Fast-SCNN](https://arxiv
 ------------------
 
 
-
 ## Example
 
 ```python
 from fast_scnn import Fast_SCNN
 model = Fast_SCNN(num_classes=10)
 ```
+
+
+------------------
+
+
+## Results with Fast-SCNN
+
+### Inference Speed (fps) on Cityscapes
+
+![Inference Speed](figures/runtime.png)
+
+### mIoU on Cityscapes
+
+![mIoU](figures/mIoU.png)
