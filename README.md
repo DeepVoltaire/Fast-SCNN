@@ -3,7 +3,7 @@ Unofficial implementation of the model architecture of [Fast-SCNN](https://arxiv
 
 ##### Tested with Python 3.6
 
-![Network Architecture image from the paper](figures/fast_scnn.png)
+![Network Architecture image from the paper](figures/fast-scnn.png)
 
 
 ------------------
