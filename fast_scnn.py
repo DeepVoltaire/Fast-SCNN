@@ -176,3 +176,8 @@ class Fast_SCNN(torch.nn.Module):
         x = self.feature_fusion(shared, x)
         x = self.classifier(x)
         return x
+
+if __name__ == '__main__':
+    model = Fast_SCNN(num_classes=10)
+    x = torch.rand(2, 3, 256, 256)
+    y = model(x)
