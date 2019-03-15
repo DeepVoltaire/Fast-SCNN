@@ -9,7 +9,7 @@ Unofficial implementation of the model architecture of [Fast-SCNN](https://arxiv
 ------------------
 
 
-## How to use
+## Example
 
 ```python
 from fast_scnn import Fast_SCNN
