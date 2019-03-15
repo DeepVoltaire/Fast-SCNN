@@ -1,8 +1,6 @@
 import torch
 from torch import nn
 from torch.nn import functional as F
-import warnings
-warnings.filterwarnings(action='ignore')
 
 
 class Fast_SCNN(torch.nn.Module):
