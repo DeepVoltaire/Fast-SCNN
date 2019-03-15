@@ -13,7 +13,7 @@ Unofficial implementation of the model architecture of [Fast-SCNN](https://arxiv
 
 ```python
 from fast_scnn import Fast_SCNN
-model = Fast_SCNN(num_classes=10)
+model = Fast_SCNN(input_channel=3, num_classes=10)
 ```
 
 
